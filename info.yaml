@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     426603732559937537       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Intro to ECSE AND gate"      # Project title
+  title:        "Intro to ECSE TTO Project - Adder"      # Project title
   author:       "Corbin L."      # Your name
   discord:      "Nibroc6"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A single AND gate"      # One line description of what your project does
+  description:  "A full adder for two 4 bit inputs and a 5 bit output"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,21 +15,21 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: "A"
-  ui[2]: "B"
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "A1"
+  ui[1]: "A2"
+  ui[2]: "A3"
+  ui[3]: "A4"
+  ui[4]: "B1"
+  ui[5]: "B2"
+  ui[6]: "B3"
+  ui[7]: "B4"
 
   # Outputs
-  uo[0]: "A"
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "O1"
+  uo[1]: "O2"
+  uo[2]: "O3"
+  uo[3]: "O4"
+  uo[4]: "O5"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
