@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-A single AND gate.
+A simple adder - takes two 4-bit binary numbers and adds them together before outputting a 5-bit binary number representing the sum. 
 
 ## How to test
 
-Try all combinations of two inputs
+Try all combinations of two input binary numbers
 
 ## External hardware
 
-7 segment display; dip switch.
+8 switch DIP switch on inputs 0-7 or two 4 switch ones on 0-3 and 4-7; some form of binary indicator (such as LEDs) on outputs 0-4.
